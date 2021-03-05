@@ -5,7 +5,8 @@
 .herotext{
     position: absolute;
     top: 150px;
-    left: 174px
+    left: 174px;
+    transition: 2s;
 }
 
 .pre{  
