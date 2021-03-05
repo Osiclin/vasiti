@@ -1,0 +1,145 @@
+.menulist{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    padding: 0px;
+    list-style-type: none;
+    column-gap: 20px;
+    -moz-column-gap: 20px;
+    padding-right: 10px;
+}
+
+.login{
+    Width: 44px;
+Height: 15px;
+Left: 304px;
+Font: Roboto;
+font-weight: 400;
+Size: 13px;
+line-height: 15.23px;
+text-align: center;
+position: static;
+left: 87.36%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+color: #242120;
+flex: none;
+order: 3;
+flex-grow: 0;
+margin: 0px 40px;
+}
+
+.contact{
+    position: static;
+left: 57.76%;
+right: 24.14%;
+top: 0%;
+bottom: 0%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #242120;
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px 40px;
+}
+
+.stories{
+    Width:
+55px;
+Height: 
+15px;
+Left:
+106px;
+Font:
+Roboto;
+font-weight:
+400;
+font-size:  
+13px;
+Line-height:
+15.23px;
+text-align: center;
+position: static;
+left: 30.46%;
+right: 53.74%;
+top: 0%;
+bottom: 0%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #242120;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 40px;
+}
+
+.about{
+    /* ABOUT US */
+
+
+position: static;
+left: 0%;
+right: 81.03%;
+top: 0%;
+bottom: 0%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #242120;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 40px;
+}
+
+
+@media (max-width: 600px) {
+    .menulist{
+      display: none;
+    }
+  }

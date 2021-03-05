@@ -1,0 +1,22 @@
+.cardblock{
+    width: 1440px;
+    height: 100%;
+    position: relative;
+    top: 1974px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    column-gap: 150px;
+    -webkit-column-gap: 150px;
+    padding-top: 100px;
+    background-color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .cardblock{
+        width: 100%;
+        height: 100%;
+        top: 3600px;
+        grid-template-columns: auto;
+    }
+}

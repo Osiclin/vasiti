@@ -1,0 +1,89 @@
+.story{
+    position: absolute;
+    width: 461px;
+    height: 402.2px;
+    left: 123px;
+    top: 2857px;
+}
+
+.name{
+    width: 316px;
+height: 39px;
+left: 130px;
+top: 2957px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+letter-spacing: 0.01em;
+
+/* vasiti-off-black */
+
+color: #242120;
+}
+
+.status{
+    width: 75px;
+left: 130px;
+top: 3004px;
+padding: 7px 10px 7px;
+border: 1px solid rgba(255, 92, 0, 0.4);
+box-sizing: border-box;
+border-radius: 4px;
+font-family: Inter; 
+font-weight: 500;
+font-style: normal;
+font-size: 13px;
+left: 139px;
+top: 3011px;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #FF5C00;
+text-align: center;
+}
+
+.share{
+    width: 295px;
+height: 37.2px;
+margin-top: 50px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.2em;
+text-transform: uppercase;
+
+color: black;
+}
+
+.sharevector{
+    position: absolute;
+    width: 295px;
+    left: -10px;
+    top: 350px;
+}
+
+@media screen and (max-width: 600px) {
+    .story{
+        left: 1%;
+        width: 100%;
+        padding: 0 100px;
+        left: 0px;
+        top: 6650px;
+        z-index: 4;
+        font-size: 24px;
+    }
+
+    .sharevector{
+        top: 550px;
+        left: 80px;
+    }
+}

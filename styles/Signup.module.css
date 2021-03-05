@@ -1,0 +1,15 @@
+.signup{
+    font-family: Roboto;
+    background-color: #FF5C00;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    color: white;
+}
+
+
+@media (max-width: 600px) {
+   .signup{
+       display: none;
+   }
+  }

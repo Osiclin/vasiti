@@ -1,0 +1,105 @@
+.story{
+    position: absolute;
+    width: 424px;
+    height: 410.2px;
+    left: 890px;
+    top: 852px;
+}
+
+.name{
+    width: 375px;
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+}
+
+
+.content{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 150%;
+/* or 27px */
+
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+
+.status{
+    width: 90px;
+    padding: 7px 10px 7px 9px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+box-sizing: border-box;
+border-radius: 4px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+    
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+}
+
+.share{
+width: 295px;
+height: 37.2px;
+margin-top: 50px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.2em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.sharevector{
+    position: absolute;
+    width: 295px;
+    top: 420px;
+    left: -10px
+}
+
+.rectangle{
+    position: absolute;
+width: 1440px;
+height: 75px;
+left: 0px;
+top: 1562px;
+
+background: #FFFFFF;
+border: 2px solix black;
+}
+
+@media (max-width: 600px){
+    .story{
+        width: 100%;
+        min-width: 400px;
+        padding: 0px 5%;
+        left: 1%;
+        z-index: 3;
+        top: 1100px;
+        font-size: 2rem;
+    }
+
+    .sharevector{
+        top: 400px;
+        left: 2%;
+    }
+}

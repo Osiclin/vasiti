@@ -1,0 +1,113 @@
+.status{
+    width: 76px;
+height: 16px;
+background: #EEF8FF;
+border-radius: 4px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+
+letter-spacing: 0.02em;
+
+color: #0D019A;
+}
+
+.name{
+width: 220px;
+height: 29px;
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 29px;
+/* identical to box height */
+
+letter-spacing: 0.02em;
+
+color: #474747;
+}
+
+.city{
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+letter-spacing: 0.05em;
+
+color: #535353;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.customer{
+    width: 95px;
+height: 30px;
+
+background: #EEF8FF;
+border-radius: 4px;
+width: 76px;
+height: 16px;
+left: 81px;
+top: 7px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+
+letter-spacing: 0.02em;
+
+color: #0D019A;
+padding: 7px 10px;
+}
+
+.vendor{
+    width: 95px;
+height: 30px;
+
+background: #EEF8FF;
+border-radius: 4px;
+width: 76px;
+height: 16px;
+left: 81px;
+top: 7px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+
+letter-spacing: 0.02em;
+
+color: #049A01;
+padding: 7px 10px;
+}
+
+.content{
+    width: 300px;
+height: 264px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+letter-spacing: 0.02em;
+
+color: #474747;
+}

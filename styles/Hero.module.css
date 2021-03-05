@@ -1,0 +1,78 @@
+.herotext{
+    position: absolute;
+    top: 150px;
+    left: 174px
+}
+
+.pre{  
+width: 586px;
+height: 180px;
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 60px;
+letter-spacing: -0.02em;
+color: #000000;
+
+}
+
+.p{
+width: 489px;
+height: 62px;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 31px;
+
+letter-spacing: 0.02em;
+
+color: #494949;
+}
+
+.testimonialimage1{
+    position: absolute;
+    width: 536px;
+    height: 568px;
+    left: 793px;
+    top: 158px;
+    background: url(../public/Testimonialimage1.png);
+}
+
+.subtract{
+    position: absolute;
+    width: 711px;
+    height: 517px;
+    left: 662px;
+    top: 209px;
+}
+
+
+@media screen and (max-width: 600px) {
+   .herotext{
+       width: 100%;
+       left: 0;
+       font-size: 2rem;
+       padding-left: 20px;
+       top: 1.11%;
+   }
+
+   .testimonialimage1{
+       width: 100%;
+    left: 0px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    top: 498px;
+   }
+
+   .pre{
+       width: 100%;
+   }
+
+   .subtract{
+    height: 460.57px;
+    left: 0px;
+    top: 523.43px;
+   }
+}

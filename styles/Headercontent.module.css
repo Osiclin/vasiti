@@ -1,0 +1,16 @@
+.headercontent{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 7.92%;
+    right: 12.49%;
+    top: 25%;
+    bottom: 30%;
+    height: 46px;
+    background-color: #ffffff;
+}
+
+.side{
+    display: flex;
+}
+

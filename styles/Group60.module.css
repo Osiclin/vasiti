@@ -1,0 +1,55 @@
+.testimonialimage2{
+    position: absolute;
+width: 617px;
+height: 572px;
+left: 137px;
+top: 64px;
+
+background: url(../public/bb.png);
+}
+
+.ecllipse8{
+    position: absolute;
+width: 631px;
+height: 631px;
+left: 123px;
+top: 64px;
+border-radius: 50%;
+background: #2E2E2E;
+}
+
+.group60{
+    position: absolute;
+width: 1440px;
+height: 636px;
+left: 0px;
+top: 726px;
+background: #222222;
+}
+
+
+@media (max-width: 600px) {
+    .group60{
+        width: 100%;
+        height: 1250px;
+        left: 0%;
+        right: 0%;
+        top: 984px;
+        background: #222222;
+        z-index: 3;
+    }
+
+    .ecllipse8{
+        width: 100%;
+        top: 620px;
+        left: 0;
+    }
+
+    .testimonialimage2{
+        width: 100%;
+left: 0%;
+top: 630px;
+background-repeat: no-repeat;
+background-position: center;
+    }
+}

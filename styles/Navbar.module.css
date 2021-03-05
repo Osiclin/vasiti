@@ -1,0 +1,14 @@
+.navbarlanding{
+    width: 1440px;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    background: #ffffff;
+    z-index: 10;
+}
+
+@media screen and (max-width: 600px) {
+    .navbarlanding{
+      width: 600px;
+    }
+  }
