@@ -30,9 +30,6 @@ export default function Home() {
       <Banner />
       <Footer />
 
-      
-
-
     </div>
   )
 }

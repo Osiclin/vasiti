@@ -1,5 +1,5 @@
 .cardblock{
-    width: 1440px;
+    width: 1366px;
     height: 100%;
     position: relative;
     top: 1310px;
@@ -10,6 +10,7 @@
     -webkit-column-gap: 150px;
     background-color: white;
     padding-top: 150px;
+    margin-right: 0px;
 }
 
 @media screen and (max-width: 600px) {
