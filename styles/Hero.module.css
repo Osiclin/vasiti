@@ -62,7 +62,8 @@ color: #494949;
    .herotext{
        width: 100%;
        top: 120px;
-       left: 9%;
+       left: 0;
+       padding-left: 9%;
        font-size: 2rem;
    }
 
