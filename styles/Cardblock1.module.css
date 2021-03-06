@@ -1,5 +1,5 @@
 .cardblock{
-    width: 100%;
+    width: 1366px;
     height: 100%;
     position: relative;
     top: 1974px;
@@ -17,7 +17,8 @@
     .cardblock{
         width: 100%;
         height: 100%;
-        top: 3700px;
+        top: 3080px;
+        padding-bottom: 30px;
         grid-template-columns: auto;
     }
 }

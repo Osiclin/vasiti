@@ -14,3 +14,13 @@
     display: flex;
 }
 
+@media screen and (max-width: 600px) {
+    .side{
+        display: none;
+    }
+
+    .headercontent{
+        display: block;
+        left: 0;
+    }
+}

@@ -1,6 +1,6 @@
 .banner{
     position: absolute;
-    width: 100%;
+    width: 1366px;
     height: 406px;
     left: 0px;
     top: 4750px;
@@ -72,9 +72,8 @@ outline: none;
 
 .button{
     position: absolute;
-    padding: 8px 24px;
-height: 42px;
-left: 962px;
+    padding: 11px;
+right: 274px;
 top: 214px;
 
 background: #FFFFFF;
@@ -98,7 +97,7 @@ background: url(../public/subscribe-banner1.png);
         width: 100%;
         height: 406px;
         left: 0px;
-        top: 11040px;
+        top: 10440px;
     }
 
     .bannerin{
@@ -116,7 +115,7 @@ background: url(../public/subscribe-banner1.png);
         .subscribe{
             position: absolute;
             top: 600px;
-            width: 64%;
+            width: 386px;
             left: 50%;
             transform: translate(-50%, -50%);
             background-repeat: no-repeat;
@@ -130,11 +129,53 @@ background: url(../public/subscribe-banner1.png);
         }
 
         .button{
-            left: 65%;
+            position: unset;
+            float: right;
+            margin-top: -45px;
+            margin-right: 3px;
+        }
+
+        .title{
+            width: 100%;
         }
 
         .input{
             width: 100%;
         }
           
+}
+
+
+@media screen and (max-width: 450px) {
+    .banner{
+        top: 10440px;
+    }
+
+    .input{
+        width: calc(100% - 13px);
+    }
+
+    .button{
+        margin-right: 18px;
+    }
+    
+    .subscribeform{
+        width: 100%;
+    }
+
+    .title{
+        font-size: 2.1rem;
+    }
+
+    .para{
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 384px) {
+    .subscribe{
+        left: 36%;
+    }
 }

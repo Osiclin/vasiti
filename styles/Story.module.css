@@ -6,16 +6,13 @@
 
 .name{
     width: 375px;
-font-family: Inter;
-font-style: normal;
-font-weight: bold;
-font-size: 32px;
-line-height: 39px;
-/* identical to box height */
-
-letter-spacing: 0.01em;
-
-color: #FFFFFF;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
 }
 
 
@@ -25,10 +22,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 150%;
-/* or 27px */
-
 letter-spacing: 0.02em;
-
 color: #FFFFFF;
 }
 
@@ -36,31 +30,28 @@ color: #FFFFFF;
     width: 90px;
     padding: 7px 10px 7px 9px;
     border: 1px solid rgba(255, 255, 255, 0.4);
-box-sizing: border-box;
-border-radius: 4px;
+    box-sizing: border-box;
+    border-radius: 4px;
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
     font-size: 13px;
     line-height: 16px;
-    /* identical to box height */
-    
     letter-spacing: 0.02em;
-    
     color: #FFFFFF;
 }
 
 .share{
-width: 295px;
-margin-top: 50px;
-margin-bottom: 0px;
-font-family: Inter;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-letter-spacing: 0.2em;
-text-transform: uppercase;
-color: #FFFFFF;
+    width: 295px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 .sharevector{
@@ -68,24 +59,27 @@ color: #FFFFFF;
     margin-left: -9px;
 }
 
-.rectangle{
-    position: absolute;
-width: 1440px;
-height: 75px;
-left: 0px;
-top: 1562px;
-
-background: #FFFFFF;
-border: 2px solix black;
-}
 
 @media (max-width: 600px){
     .story{
         width: 100%;
-        min-width: 400px;
         padding: 0px 5%;
         margin-top: -550px;
-        font-size: 1rem;
+    }
+
+    .name{
+        width: 100%;
+        font-size: 2rem;
     }
     
+    .content{
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .share{
+        width: 100%;
+        font-size: 1rem;
+    }
+
 }
