@@ -16,6 +16,13 @@ a {
   box-sizing: border-box;
 }
 
-#__next{
- width: 100%;
+::-webkit-scrollbar{
+  width: 3px;
+  height: 3px;
+}
+
+
+
+::-webkit-scrollbar-thumb{
+  background-color: chocolate;
 }
