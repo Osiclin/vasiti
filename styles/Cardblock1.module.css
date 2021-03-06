@@ -1,8 +1,9 @@
 .cardblock{
-    width: 1366px;
+    width: 100%;
     height: 100%;
     position: relative;
     top: 1974px;
+    left: 0;
     display: grid;
     justify-content: center;
     grid-template-columns: auto auto auto;
