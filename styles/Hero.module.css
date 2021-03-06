@@ -77,13 +77,13 @@ color: #494949;
 
    .pre{
        width: 100%;
-       font-size: 2.2rem;
+       font-size: 3rem;
        line-height: 40px;
    }
 
     .p{
         width: 100%;
-        font-size: 0.85rem;
+        font-size: 1.2rem;
         line-height: 20px;
     }
 
@@ -91,4 +91,25 @@ color: #494949;
        width: 100%;
         top: 500px;
    }
+}
+
+@media screen and (max-width: 450px){
+    .pre{
+        font-size: 2.4rem;
+    }
+
+    .p{
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (max-width: 3700px){
+    .pre{
+        font-size: 2.2rem;
+    }
+
+    .p{
+        font-size: 0.9rem;
+    }
 }
