@@ -20,21 +20,26 @@ background: #2E2E2E;
 
 .group60{
     position: absolute;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 700px;
+    -webkit-column-gap: 700px;
 width: 100%;
 height: 636px;
 left: 0px;
-top: 726px;
+top: 700px;
 background: #222222;
 }
 
 
 @media (max-width: 600px) {
     .group60{
+        grid-template-columns: auto;
         width: 100%;
         height: 1250px;
         left: 0%;
         right: 0%;
-        top: 984px;
+        top: 940px;
         background: #222222;
         z-index: 3;
     }
@@ -47,9 +52,9 @@ background: #222222;
 
     .testimonialimage2{
         width: 100%;
-left: 0%;
-top: 630px;
-background-repeat: no-repeat;
-background-position: center;
+        left: 0%;
+        top: 580px;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 }

@@ -1,9 +1,8 @@
 .story{
-    position: absolute;
     width: 461px;
     height: 402.2px;
-    left: 123px;
-    top: 2857px;
+    margin-top: 150px;
+    margin-left: 120px;
 }
 
 .name{
@@ -11,18 +10,12 @@
 height: 39px;
 left: 130px;
 top: 2957px;
-
 font-family: Inter;
 font-style: normal;
 font-weight: bold;
 font-size: 32px;
 line-height: 39px;
-/* identical to box height */
-
 letter-spacing: 0.01em;
-
-/* vasiti-off-black */
-
 color: #242120;
 }
 
@@ -49,41 +42,29 @@ text-align: center;
 
 .share{
     width: 295px;
-height: 37.2px;
 margin-top: 50px;
+margin-bottom: 0px;
 font-family: Inter;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 32px;
-/* identical to box height, or 200% */
-
 letter-spacing: 0.2em;
 text-transform: uppercase;
-
 color: black;
 }
 
 .sharevector{
-    position: absolute;
     width: 295px;
-    left: -10px;
-    top: 340px;
+    margin-left: -9px;
 }
 
 @media screen and (max-width: 600px) {
     .story{
-        left: 1%;
         width: 100%;
-        padding: 0 100px;
-        left: 0px;
-        top: 6650px;
-        z-index: 4;
-        font-size: 24px;
-    }
-
-    .sharevector{
-        top: 540px;
-        left: 14%;
+        min-width: 400px;
+        padding: 0 5%;
+        font-size: 2rem;
+        margin-left: 0;
+        margin-top: 750px;
     }
 }

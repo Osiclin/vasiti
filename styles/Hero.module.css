@@ -6,14 +6,13 @@
 
 .herotext{
     position: absolute;
-    top: 10px;
+    top: 80px;
     left: 174px;
     transition: 2s;
 }
 
 .pre{  
 width: 586px;
-height: 180px;
 font-family: Inter;
 font-style: normal;
 font-weight: bold;
@@ -21,20 +20,19 @@ font-size: 48px;
 line-height: 60px;
 letter-spacing: -0.02em;
 color: #000000;
-
+margin-bottom: 0;
+margin-top: 0;
 }
 
 .p{
-width: 489px;
-height: 62px;
+    margin-top: 0;
+    margin-bottom: 0;
 font-family: Inter;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 31px;
-
 letter-spacing: 0.02em;
-
 color: #494949;
 }
 
@@ -63,10 +61,9 @@ color: #494949;
 
    .herotext{
        width: 100%;
-       left: 0;
+       top: 120px;
+       left: 9%;
        font-size: 2rem;
-       padding-left: 20px;
-       
    }
 
    .testimonialimage1{
@@ -74,16 +71,24 @@ color: #494949;
     left: 0px;
     background-repeat: no-repeat;
     background-position-x: center;
-    top: 498px;
+    top: 408px;
    }
 
    .pre{
        width: 100%;
+       font-size: 2rem;
+       line-height: 40px;
    }
+
+    .p{
+        width: 100%;
+        font-size: 1rem;
+        line-height: 20px;
+    }
 
    .subtract{
        width: 100%;
     height: 460.57px;
-    top: 523.43px;
+    top: 500px;
    }
 }

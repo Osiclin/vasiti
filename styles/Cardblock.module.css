@@ -2,7 +2,7 @@
     width: 100%;
     height: 100%;
     position: relative;
-    top: 1310px;
+    top: 1284px;
     left: 0;
     display: grid;
     justify-content: center;
@@ -17,7 +17,7 @@
 @media screen and (max-width: 600px) {
     .cardblock{
         width: 100%;
-        top: 2180px;
+        top: 2088px;
         z-index: 3;
         grid-template-columns: auto;
         column-gap: 0px;

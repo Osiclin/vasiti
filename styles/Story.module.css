@@ -1,9 +1,7 @@
 .story{
-    position: absolute;
     width: 424px;
     height: 410.2px;
-    left: 890px;
-    top: 852px;
+    margin-top: 120px;
 }
 
 .name{
@@ -54,26 +52,20 @@ border-radius: 4px;
 
 .share{
 width: 295px;
-height: 37.2px;
 margin-top: 50px;
+margin-bottom: 0px;
 font-family: Inter;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 32px;
-/* identical to box height, or 200% */
-
 letter-spacing: 0.2em;
 text-transform: uppercase;
-
 color: #FFFFFF;
 }
 
 .sharevector{
-    position: absolute;
     width: 295px;
-    top: 420px;
-    left: -10px
+    margin-left: -9px;
 }
 
 .rectangle{
@@ -92,14 +84,8 @@ border: 2px solix black;
         width: 100%;
         min-width: 400px;
         padding: 0px 5%;
-        left: 1%;
-        z-index: 3;
-        top: 1100px;
-        font-size: 2rem;
+        margin-top: -550px;
+        font-size: 1rem;
     }
-
-    .sharevector{
-        top: 400px;
-        left: 2%;
-    }
+    
 }
