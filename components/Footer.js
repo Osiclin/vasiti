@@ -8,7 +8,7 @@ export default function Footer(){
                     <li>About us</li>
                     <li>Term of Use</li>
                     <li>Privacy Policy</li>
-                    <li>{`Press & Media`}</li>
+                    <li>Press & Media</li>
                 </ul>
                 <ul className={styles.footerlist}>
                     <li className={styles.title}>Products</li>

@@ -47,16 +47,23 @@ margin-bottom: 20px;
         height: 750px;
         top: 11230px;
         grid-template-columns: auto auto;
-        padding: 100px 4%;
+        row-gap: 30px;
+        padding: 100px 0%;
+    }
+
+    .footerlist{
+        list-style-type: none;
+        line-height: 30px;
+        margin: 0;
+        padding: 0 0 0 10%;
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 400px) {
     .footer{
         width: 100%;
         height: auto;
         top: 11230px;
         grid-template-columns: auto;
-        padding: 100px 2%;
     }
 }
