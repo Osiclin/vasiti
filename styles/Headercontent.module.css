@@ -2,8 +2,9 @@
     display: flex;
     justify-content: space-between;
     position: absolute;
-    left: 7.92%;
-    right: 12.49%;
+    left: 0;
+    padding: 0px 50px;
+    width: 100%;
     top: 25%;
     bottom: 30%;
     height: 46px;
@@ -22,5 +23,6 @@
     .headercontent{
         display: block;
         left: 0;
+        padding: 0;
     }
 }
